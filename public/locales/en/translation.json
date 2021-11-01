@@ -1,0 +1,13 @@
+{
+    "lang": "English",
+    "controls": {
+        "newGameButton": "New Game",
+        "undo": "Undo",
+        "erase": "Erase",
+        "notes": "Notes",
+        "hint": "Hint"
+    },
+    "game": {
+        "loading": "Loading game"
+    }
+}

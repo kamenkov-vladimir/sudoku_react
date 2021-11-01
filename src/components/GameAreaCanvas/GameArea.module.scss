@@ -1,0 +1,9 @@
+@import 'src/styles/variables';
+
+.area {
+    width: 100%;
+    aspect-ratio: 1;
+    display: block;
+    border: 1px solid $mainBlack;
+    box-sizing: border-box;
+}

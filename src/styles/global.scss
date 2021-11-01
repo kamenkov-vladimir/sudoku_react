@@ -1,0 +1,45 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    color: $mainText;
+    font-size: 2rem;
+    min-width: 320px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 60px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    background-color: $mainBlue;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s;
+    margin: 0;
+
+    &:hover {
+        background-color: $darkBlue;
+    }
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.loader-wrapper {
+    position: relative;
+}

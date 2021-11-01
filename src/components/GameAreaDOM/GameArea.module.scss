@@ -1,0 +1,53 @@
+@import 'src/styles/variables';
+
+.area {
+    width: 100%;
+    aspect-ratio: 1;
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid $mainBlack;
+}
+
+.subArea {
+    border: 1px solid $mainBlack;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cell {
+    text-align: center;
+    color: $mainBlack;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid $darkGrey;
+    border-bottom: 1px solid $darkGrey;
+    cursor: default;
+
+    &:nth-child(3n) {
+        border-right: none;
+    }
+    &:nth-child(1n + 7) {
+        border-bottom: none;
+    }
+}
+
+.similarValue {
+    background-color: $darkGrey;
+}
+
+.userNumber {
+    color: $darkBlue;
+}
+
+.directionCell {
+    background-color: $mainGrey;
+}
+
+.activeCell {
+    background-color: $lightBlue;
+}

@@ -1,0 +1,23 @@
+@import 'src/styles/variables';
+
+.numpad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+    button {
+        aspect-ratio: 1;
+        border: none;
+        outline: none;
+        background-color: $mainGrey;
+        transition: 0.3s;
+        border-radius: 5px;
+        color: $darkBlue;
+        font-size: 40px;
+        font-weight: 300;
+
+        &:hover {
+            background-color: $darkGrey;
+        }
+    }
+}
